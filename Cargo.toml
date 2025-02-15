@@ -1,11 +1,11 @@
 [package]
-name = "syn-ext"
+name = "syn-more"
 version = "0.1.0"
 edition = "2021"
 description = "Extension functions for syn crate"
 license = "Apache-2.0 OR MIT"
-homepage = "https://github.com/DenisGorbachev/syn-ext"
-repository = "https://github.com/DenisGorbachev/syn-ext"
+homepage = "https://github.com/DenisGorbachev/syn-more"
+repository = "https://github.com/DenisGorbachev/syn-more"
 readme = "README.md"
 keywords = ["syn", "utils", "parsing"]
 categories = ["development-tools", "development-tools::procedural-macro-helpers", "rust-patterns"]
