@@ -2,5 +2,23 @@
 name = "syn-ext"
 version = "0.1.0"
 edition = "2021"
+description = "Extension functions for syn crate"
+license = "Apache-2.0 OR MIT"
+homepage = "https://github.com/DenisGorbachev/syn-ext"
+repository = "https://github.com/DenisGorbachev/syn-ext"
+readme = "README.md"
+keywords = ["syn", "utils", "parsing"]
+categories = ["development-tools", "development-tools::procedural-macro-helpers", "rust-patterns"]
+
+[package.metadata.details]
+title = "Extension functions for syn crate"
+tagline = ""
+summary = ""
+announcement = ""
 
 [dependencies]
+derive_more = { version = "2.0.1", features = ["full"] }
+fmt-derive = "0.1.2"
+proc-macro2 = "1.0.0"
+standard-traits = { git = "https://github.com/DenisGorbachev/standard-traits", features = ["camino_1", "syn_2_full", "proc_macro2_1", "unstable_get", "unstable_of"] }
+syn = "2.0.0"
