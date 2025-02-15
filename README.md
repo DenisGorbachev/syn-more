@@ -4,23 +4,17 @@
 
 # Extension functions for syn crate
 
-[![Build](https://github.com/DenisGorbachev/syn-ext/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/syn-ext)
-[![Documentation](https://docs.rs/syn-ext/badge.svg)](https://docs.rs/syn-ext)
-
-
-
+[![Build](https://github.com/DenisGorbachev/syn-more/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/syn-more)
 
 ## Installation
 
 ```shell
-cargo add syn-ext url
+cargo add syn-more
 ```
-
-**Important:** add the `url` crate too.
 
 ## Gratitude
 
-Like the project? [⭐ Star this repo](https://github.com/DenisGorbachev/syn-ext) on GitHub!
+Like the project? [⭐ Star this repo](https://github.com/DenisGorbachev/syn-more) on GitHub!
 
 ## License
 
