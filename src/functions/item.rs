@@ -4,7 +4,7 @@ use crate::{FromPathFileError, SynFrom};
 use syn::{Attribute, File, Ident, Item};
 
 pub fn is_main_item(item: &Item) -> bool {
-    matches!(item, Item::Enum(_) | Item::Impl(_) | Item::Struct(_) | Item::Trait(_) | Item::TraitAlias(_) | Item::Type(_) | Item::Union(_))
+    matches!(item, Item::Enum(_) | Item::Fn(_) | Item::Impl(_) | Item::Struct(_) | Item::Trait(_) | Item::TraitAlias(_) | Item::Type(_) | Item::Union(_))
 }
 
 pub fn parse_main_item_from_path<P: AsRef<Path>>(path: P) -> Result<Option<Item>, FromPathFileError> {
